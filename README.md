@@ -20,26 +20,29 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/health-profile-manager.git
+   git clone https://github.com/Yashwanth023/ReaactAssignment_Realfy.git
    cd health-profile-manager
+   ```
 
 2. Install dependencies:
   ```bash
-npm install
+   npm install
+   ```
 
 3. Set up environment variables: Create a .env file in the root directory with the following content:
   ```bash
-FIREBASE_PROJECT_ID=your-project-id
-FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYour-Private-Key-Here\n-----END PRIVATE KEY-----\n"
-FIREBASE_CLIENT_EMAIL=your-firebase-client-email@your-project-id.iam.gserviceaccount.com
-PORT=3000
-
- Replace the placeholder values with your actual Firebase project details.
+  FIREBASE_PROJECT_ID=your-project-id
+  FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYour-Private-Key-Here\n-----END PRIVATE KEY-----\n"
+  FIREBASE_CLIENT_EMAIL=your-firebase-client-email@your-project-id.iam.gserviceaccount.com
+  PORT=3000
+   ```
+ - Replace the placeholder values with your actual Firebase project details.
 
 4. Start the application:
   ```bash
-node health-profile-manager.js
-Open a web browser and navigate to http://localhost:3000.
+   node health-profile-manager.js
+   Open a web browser and navigate to http://localhost:3000.
+   ```
 
 5. Usage
 ### Adding a user:
